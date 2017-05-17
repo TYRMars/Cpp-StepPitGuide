@@ -1,0 +1,3 @@
+#include <stdio.h>
+ #include <string.h>  
+void reverse(char s［］){  int c,i,j;  for(i=0,j=strlen(s)-1;i<j;i++,j--){  c=s［i］;  s［i］=s［j］;  s［j］=c;  }  }  void getHex(int number,char s［］){  int i;  i=0;  while(number>0){  if(number%16<10)  s［i++］=number%16+’0’;  else  switch(number%16){  case 10:s［i++］=’A’;break;  case 11:s［i++］=’B’;break;  case 12:s［i++］=’C’;break;  case 13:s［i++］=’D’;break;  case 14:s［i++］=E;break;  case 15:s［i++］=F;break;  default:printf("Error");break;  }  number/=16;  }  s［i］=\\0;  reverse(s);  }  int main(){  unsigned int number;  int i=0;  char s［50］;  printf("%s","please input number:\\n");  scanf("%d",＆number);  getHex(number,s);  i=0;  while(s［i］)  printf("%c",s［i++］);  return 0;  }
