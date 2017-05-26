@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Jonathan Zhang/Documents/GitHub/Cpplearn/CppLearn/mywork/02/02-02/Student.h">
+			<Option target="SelectionSort"/>
+		</Unit>
 		<Unit filename="E:/Jonathan Zhang/Documents/GitHub/Cpplearn/CppLearn/mywork/02/02-02/main.cpp">
 			<Option target="SelectionSort"/>
 		</Unit>
