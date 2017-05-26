@@ -1,3 +1,0 @@
-/Users/zhangjianan/Documents/GitHub/Csuanfa/CppLearn/02-Sorting-Basic/01-Selection-Sort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/zhangjianan/Documents/GitHub/Csuanfa/CppLearn/02-Sorting-Basic/01-Selection-Sort/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/zhangjianan/Documents/GitHub/Csuanfa/CppLearn/02-Sorting-Basic/01-Selection-Sort/cmake-build-debug/CMakeFiles/SelectionSort.dir

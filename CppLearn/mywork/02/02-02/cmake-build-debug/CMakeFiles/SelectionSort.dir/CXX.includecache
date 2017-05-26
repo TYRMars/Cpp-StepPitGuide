@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Jonathan Zhang/Documents/GitHub/Cpplearn/CppLearn/mywork/02/02-02/main.cpp
+iostream
+-
+
