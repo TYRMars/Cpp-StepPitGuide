@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-E:/Jonathan Zhang/Documents/GitHub/Cpplearn/CppLearn/02-Sorting-Basic/01-Selection-Sort/main.cpp
+D:/GitHub/AlgorithmLearn/CppLearn/mywork/02/02-01/main.cpp
 iostream
 -
 

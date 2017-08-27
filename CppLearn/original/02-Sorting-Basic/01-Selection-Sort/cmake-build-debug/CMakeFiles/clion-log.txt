@@ -1,6 +1,6 @@
-"D:\Program Files\JetBrains\CLion 2017.1.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\Jonathan Zhang\Documents\GitHub\Cpplearn\CppLearn\02-Sorting-Basic\01-Selection-Sort"
--- The C compiler identification is GNU 5.3.0
--- The CXX compiler identification is GNU 5.3.0
+"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\GitHub\AlgorithmLearn\CppLearn\original\02-Sorting-Basic\01-Selection-Sort
+-- The C compiler identification is GNU 4.6.2
+-- The CXX compiler identification is GNU 4.6.2
 -- Check for working C compiler: C:/MinGW/bin/gcc.exe
 -- Check for working C compiler: C:/MinGW/bin/gcc.exe -- works
 -- Detecting C compiler ABI info
@@ -15,4 +15,7 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/Jonathan Zhang/Documents/GitHub/Cpplearn/CppLearn/02-Sorting-Basic/01-Selection-Sort/cmake-build-debug
+-- Build files have been written to: D:/GitHub/AlgorithmLearn/CppLearn/original/02-Sorting-Basic/01-Selection-Sort/cmake-build-debug
+
+Problems were encountered while collecting compiler information:
+	cc1plus.exe: error: unrecognized command line option '-std=c++11'

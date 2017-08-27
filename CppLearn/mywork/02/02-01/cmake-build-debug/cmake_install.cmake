@@ -1,4 +1,4 @@
-# Install script for directory: E:/Jonathan Zhang/Documents/GitHub/Cpplearn/CppLearn/02-Sorting-Basic/01-Selection-Sort
+# Install script for directory: D:/GitHub/AlgorithmLearn/CppLearn/mywork/02/02-01
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Jonathan Zhang/Documents/GitHub/Cpplearn/CppLearn/02-Sorting-Basic/01-Selection-Sort/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/GitHub/AlgorithmLearn/CppLearn/mywork/02/02-01/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
