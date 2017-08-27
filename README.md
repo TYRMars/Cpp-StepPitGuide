@@ -1,7 +1,7 @@
 <h1 align="center">《C++、数据结构、算法》学习📖</h1>
 <p align="center"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1496673960064&di=c9c5de36faba9b267e6b5e3c123af80f&imgtype=0&src=http%3A%2F%2Fp7.qhimg.com%2Ft0128b2c0313adbfc60.png" /></p>
 
-<h2 align="center">Dedicate this to someone I love</h2>
+<h2 align="center">Dedicate this to someone My love</h2>
 
 ---
 
