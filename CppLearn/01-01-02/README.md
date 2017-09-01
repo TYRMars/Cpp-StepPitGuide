@@ -68,7 +68,7 @@ carrots = carrots - 1;
 * 然后，赋值运算符将这个新赋值存储到变量carrots对应的内存单元中。
 
 ### 01-03
-#### cout的新花样
+#### cout
 
 * cout不光可以用来打印字符串，而且可以打印变量。
 
@@ -77,3 +77,27 @@ cout << carrots;
 ```
 
 * 程序不会去打印"carrots"，而是打印存储在`carrots`的整数值
+
+### 01-04
+#### 使用cin
+
+```Cpp
+//input and output
+#include <iostream>
+
+int main()
+{
+  using namespace std;
+
+  int carrots;
+
+  cout << "How many carrots do you have?" << endl;
+  cin >> carrots; //C++ input
+  cout << "Here are two more"
+  carrots = carrots + 2;
+  cout << "Now you have" << carrots << "carrots." << endl;
+  return 0;
+}
+```
+
+*
