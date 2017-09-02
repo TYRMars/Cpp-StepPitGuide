@@ -47,10 +47,10 @@ RM = "D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\GitHub\AlgorithmLearn\CppLearn\mywork\02\02-01
+CMAKE_SOURCE_DIR = D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\GitHub\AlgorithmLearn\CppLearn\mywork\02\02-01\cmake-build-debug
+CMAKE_BINARY_DIR = D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-01\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\AlgorithmLearn\CppLearn\mywork\02\02-01\cmake-build-debug\CMakeFiles D:\GitHub\AlgorithmLearn\CppLearn\mywork\02\02-01\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-01\cmake-build-debug\CMakeFiles D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-01\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\AlgorithmLearn\CppLearn\mywork\02\02-01\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-01\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

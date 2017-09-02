@@ -59,15 +59,15 @@ include CMakeFiles/SelectionSort.dir/flags.make
 CMakeFiles/SelectionSort.dir/main.cpp.obj: CMakeFiles/SelectionSort.dir/flags.make
 CMakeFiles/SelectionSort.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SelectionSort.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SelectionSort.dir\main.cpp.obj -c D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\main.cpp
+	D:\GW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SelectionSort.dir\main.cpp.obj -c D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\main.cpp
 
 CMakeFiles/SelectionSort.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SelectionSort.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\main.cpp > CMakeFiles\SelectionSort.dir\main.cpp.i
+	D:\GW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\main.cpp > CMakeFiles\SelectionSort.dir\main.cpp.i
 
 CMakeFiles/SelectionSort.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SelectionSort.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\main.cpp -o CMakeFiles\SelectionSort.dir\main.cpp.s
+	D:\GW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\main.cpp -o CMakeFiles\SelectionSort.dir\main.cpp.s
 
 CMakeFiles/SelectionSort.dir/main.cpp.obj.requires:
 
