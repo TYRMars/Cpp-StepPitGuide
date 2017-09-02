@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/mywork/02/02-03/SortTestHelper.h
+D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/SortTestHelper.h
 iostream
 -
 cassert
 -
 
-/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/mywork/02/02-03/Student.h
+D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/Student.h
 iostream
 -
 
-/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/mywork/02/02-03/main.cpp
+D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/main.cpp
 iostream
 -
 Student.h
-/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/mywork/02/02-03/Student.h
+D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/Student.h
 SortTestHelper.h
-/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/mywork/02/02-03/SortTestHelper.h
+D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/SortTestHelper.h
 
