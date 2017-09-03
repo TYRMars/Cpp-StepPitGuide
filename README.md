@@ -47,13 +47,16 @@
 
 ## 第三部分 算法思想总结
 
-### 第一章 选择排序与插入排序
-* [03-01-01](https://github.com/TYRMars/AlgorithmLearn#03-01-01) `选择排序算法-Selection Sort`
-* [03-01-02](https://github.com/TYRMars/AlgorithmLearn#03-01-02) `使用模版Templates（泛型）编写算法`
-* [03-01-03](https://github.com/TYRMars/AlgorithmLearn#03-01-03) `随机生成算法测试用例`
-* [03-01-04](https://github.com/TYRMars/AlgorithmLearn#03-01-04) `测试算法性能`
-* [03-01-05](https://github.com/TYRMars/AlgorithmLearn#03-01-05) `插入排序法-Insertion Sort`
-* [03-01-06](https://github.com/TYRMars/AlgorithmLearn#03-01-06) `插入排序法的改进`
-* [03-01-07](https://github.com/TYRMars/AlgorithmLearn#03-02-07) `更多关于O（n^2）排序算法的思考`
+### 第一章 算法基本思想
+
+### 第二章 选择排序与插入排序
+
+* [03-02-01](https://github.com/TYRMars/AlgorithmLearn#03-01-01) `选择排序算法-Selection Sort`
+* [03-02-02](https://github.com/TYRMars/AlgorithmLearn#03-01-02) `使用模版Templates（泛型）编写算法`
+* [03-02-03](https://github.com/TYRMars/AlgorithmLearn#03-01-03) `随机生成算法测试用例`
+* [03-02-04](https://github.com/TYRMars/AlgorithmLearn#03-01-04) `测试算法性能`
+* [03-02-05](https://github.com/TYRMars/AlgorithmLearn#03-01-05) `插入排序法-Insertion Sort`
+* [03-02-06](https://github.com/TYRMars/AlgorithmLearn#03-01-06) `插入排序法的改进`
+* [03-02-07](https://github.com/TYRMars/AlgorithmLearn#03-02-07) `更多关于O（n^2）排序算法的思考`
 
 ---
