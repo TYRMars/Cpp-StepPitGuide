@@ -11,10 +11,11 @@
 
 ## 第一部分 C++基础知识
 
+### 第一章 C++基本知识
+
 * [01-01-01](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-01-01) `了解C++`
 * [01-01-02](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-01-02) `C++语句`
-
-### 第一章 C++基本知识
+* [01-01-03](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-01-03) `C++函数`
 
 ### 第二章 C++数据处理
 
@@ -26,12 +27,27 @@
 
 ### 第六章 C++函数---C++的模块编程
 
+### 第七章 C++函数探幽
+
+### 第九章 C++内存模型和命名空间
+
+### 第十章 C++对象和类
+
+### 第十一章 C++使用类
+
+### 第十二章 C++类和动态内存分配
+
+### 第十三章 C++类继承
+
+### 第十四章 C++中的代码重用
+
 ## 第二部分 基本数据结构
 
 
 
 ## 第三部分 算法思想总结
 
+### 第一章 选择排序与插入排序
 * [03-01-01](https://github.com/TYRMars/AlgorithmLearn#03-01-01) `选择排序算法-Selection Sort`
 * [03-01-02](https://github.com/TYRMars/AlgorithmLearn#03-01-02) `使用模版Templates（泛型）编写算法`
 * [03-01-03](https://github.com/TYRMars/AlgorithmLearn#03-01-03) `随机生成算法测试用例`

@@ -1,189 +1,123 @@
-The system is: Windows - 10.0.15063 - AMD64
+The system is: Darwin - 16.7.0 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: D:/GW/bin/gcc.exe 
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
 Build flags: 
-Id flags:  
+Id flags: 
 
 The output was:
 0
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.exe"
+The C compiler identification is AppleClang, found in "/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/3.7.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: D:/GW/bin/g++.exe 
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
 Build flags: 
-Id flags:  
+Id flags: 
 
 The output was:
 0
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.exe"
+The CXX compiler identification is AppleClang, found in "/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/GW/bin/mingw32-make.exe" "cmTC_167cd/fast"
-D:/GW/bin/mingw32-make.exe -f CMakeFiles\cmTC_167cd.dir\build.make CMakeFiles/cmTC_167cd.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_167cd.dir/testCCompiler.c.obj
-D:\GW\bin\gcc.exe    -o CMakeFiles\cmTC_167cd.dir\testCCompiler.c.obj   -c D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C executable cmTC_167cd.exe
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_167cd.dir\link.txt --verbose=1
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_167cd.dir/objects.a
-D:\GW\bin\ar.exe cr CMakeFiles\cmTC_167cd.dir/objects.a @CMakeFiles\cmTC_167cd.dir\objects1.rsp
-D:\GW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_167cd.dir/objects.a -Wl,--no-whole-archive  -o cmTC_167cd.exe -Wl,--out-implib,libcmTC_167cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_167cd.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ccfa2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ccfa2.dir/build.make CMakeFiles/cmTC_ccfa2.dir/build
+Building C object CMakeFiles/cmTC_ccfa2.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_ccfa2.dir/testCCompiler.c.o   -c /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ccfa2
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccfa2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ccfa2.dir/testCCompiler.c.o  -o cmTC_ccfa2 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/GW/bin/mingw32-make.exe" "cmTC_00adb/fast"
-D:/GW/bin/mingw32-make.exe -f CMakeFiles\cmTC_00adb.dir\build.make CMakeFiles/cmTC_00adb.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_00adb.dir/CMakeCCompilerABI.c.obj
-D:\GW\bin\gcc.exe    -o CMakeFiles\cmTC_00adb.dir\CMakeCCompilerABI.c.obj   -c "D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
-Linking C executable cmTC_00adb.exe
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_00adb.dir\link.txt --verbose=1
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_00adb.dir/objects.a
-D:\GW\bin\ar.exe cr CMakeFiles\cmTC_00adb.dir/objects.a @CMakeFiles\cmTC_00adb.dir\objects1.rsp
-D:\GW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_00adb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_00adb.exe -Wl,--out-implib,libcmTC_00adb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-Using built-in specs.
-COLLECT_GCC=D:\GW\bin\gcc.exe
-COLLECT_LTO_WRAPPER=d:/gw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
-Target: mingw32
-Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls
-Thread model: win32
-gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
-COMPILER_PATH=d:/gw/bin/../libexec/gcc/mingw32/6.3.0/;d:/gw/bin/../libexec/gcc/;d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
-LIBRARY_PATH=d:/gw/bin/../lib/gcc/mingw32/6.3.0/;d:/gw/bin/../lib/gcc/;d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_00adb.exe' '-mtune=generic' '-march=i586'
- d:/gw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin d:/gw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=d:/gw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\zhang\AppData\Local\Temp\ccbbXURF.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_00adb.exe d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o d:/gw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Ld:/gw/bin/../lib/gcc/mingw32/6.3.0 -Ld:/gw/bin/../lib/gcc -Ld:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Ld:/gw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_00adb.dir/objects.a --no-whole-archive --out-implib libcmTC_00adb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt d:/gw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_00adb.exe' '-mtune=generic' '-march=i586'
-mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7be02/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7be02.dir/build.make CMakeFiles/cmTC_7be02.dir/build
+Building C object CMakeFiles/cmTC_7be02.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_7be02.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7be02
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7be02.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_7be02.dir/CMakeCCompilerABI.c.o  -o cmTC_7be02  
+Apple LLVM version 8.1.0 (clang-802.0.42)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_7be02 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7be02.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-278.4
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"D:/GW/bin/mingw32-make.exe" "cmTC_00adb/fast"]
-  ignore line: [D:/GW/bin/mingw32-make.exe -f CMakeFiles\cmTC_00adb.dir\build.make CMakeFiles/cmTC_00adb.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_00adb.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [D:\GW\bin\gcc.exe    -o CMakeFiles\cmTC_00adb.dir\CMakeCCompilerABI.c.obj   -c "D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"]
-  ignore line: [Linking C executable cmTC_00adb.exe]
-  ignore line: ["D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_00adb.dir\link.txt --verbose=1]
-  ignore line: ["D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_00adb.dir/objects.a]
-  ignore line: [D:\GW\bin\ar.exe cr CMakeFiles\cmTC_00adb.dir/objects.a @CMakeFiles\cmTC_00adb.dir\objects1.rsp]
-  ignore line: [D:\GW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_00adb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_00adb.exe -Wl,--out-implib,libcmTC_00adb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=D:\GW\bin\gcc.exe]
-  ignore line: [COLLECT_LTO_WRAPPER=d:/gw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
-  ignore line: [Target: mingw32]
-  ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls]
-  ignore line: [Thread model: win32]
-  ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
-  ignore line: [COMPILER_PATH=d:/gw/bin/../libexec/gcc/mingw32/6.3.0/]
-  ignore line: [d:/gw/bin/../libexec/gcc/]
-  ignore line: [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
-  ignore line: [LIBRARY_PATH=d:/gw/bin/../lib/gcc/mingw32/6.3.0/]
-  ignore line: [d:/gw/bin/../lib/gcc/]
-  ignore line: [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
-  ignore line: [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_00adb.exe' '-mtune=generic' '-march=i586']
-  link line: [ d:/gw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin d:/gw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=d:/gw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\zhang\AppData\Local\Temp\ccbbXURF.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_00adb.exe d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o d:/gw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Ld:/gw/bin/../lib/gcc/mingw32/6.3.0 -Ld:/gw/bin/../lib/gcc -Ld:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Ld:/gw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_00adb.dir/objects.a --no-whole-archive --out-implib libcmTC_00adb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt d:/gw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
-    arg [d:/gw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [d:/gw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
-    arg [-plugin-opt=d:/gw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\zhang\AppData\Local\Temp\ccbbXURF.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
-    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-    arg [-Bdynamic] ==> ignore
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7be02/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7be02.dir/build.make CMakeFiles/cmTC_7be02.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_7be02.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_7be02.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_7be02]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7be02.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_7be02.dir/CMakeCCompilerABI.c.o  -o cmTC_7be02  ]
+  ignore line: [Apple LLVM version 8.1.0 (clang-802.0.42)]
+  ignore line: [Target: x86_64-apple-darwin16.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_7be02 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7be02.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> lib [to_library]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.12.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_00adb.exe] ==> ignore
-    arg [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> ignore
-    arg [d:/gw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> ignore
-    arg [-Ld:/gw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [d:/gw/bin/../lib/gcc/mingw32/6.3.0]
-    arg [-Ld:/gw/bin/../lib/gcc] ==> dir [d:/gw/bin/../lib/gcc]
-    arg [-Ld:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
-    arg [-Ld:/gw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../..]
-    arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_00adb.dir/objects.a] ==> ignore
-    arg [--no-whole-archive] ==> ignore
-    arg [--out-implib] ==> ignore
-    arg [libcmTC_00adb.dll.a] ==> ignore
-    arg [--major-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [--minor-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [-lmingw32] ==> lib [mingw32]
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lgcc_eh] ==> lib [gcc_eh]
-    arg [-lmoldname] ==> lib [moldname]
-    arg [-lmingwex] ==> lib [mingwex]
-    arg [-lmsvcrt] ==> lib [msvcrt]
-    arg [-ladvapi32] ==> lib [advapi32]
-    arg [-lshell32] ==> lib [shell32]
-    arg [-luser32] ==> lib [user32]
-    arg [-lkernel32] ==> lib [kernel32]
-    arg [-lmingw32] ==> lib [mingw32]
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lgcc_eh] ==> lib [gcc_eh]
-    arg [-lmoldname] ==> lib [moldname]
-    arg [-lmingwex] ==> lib [mingwex]
-    arg [-lmsvcrt] ==> lib [msvcrt]
-    arg [d:/gw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> ignore
-  remove lib [gcc]
-  remove lib [gcc_eh]
-  remove lib [gcc]
-  remove lib [gcc_eh]
-  collapse library dir [d:/gw/bin/../lib/gcc/mingw32/6.3.0] ==> [D:/GW/lib/gcc/mingw32/6.3.0]
-  collapse library dir [d:/gw/bin/../lib/gcc] ==> [D:/GW/lib/gcc]
-  collapse library dir [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> [D:/GW/mingw32/lib]
-  collapse library dir [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> [D:/GW/lib]
-  implicit libs: [mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
-  implicit dirs: [D:/GW/lib/gcc/mingw32/6.3.0;D:/GW/lib/gcc;D:/GW/mingw32/lib;D:/GW/lib]
-  implicit fwks: []
+    arg [cmTC_7be02] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_7be02.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+  implicit libs: [to_library]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/GW/bin/mingw32-make.exe" "cmTC_969ff/fast"
-D:/GW/bin/mingw32-make.exe -f CMakeFiles\cmTC_969ff.dir\build.make CMakeFiles/cmTC_969ff.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_969ff.dir/feature_tests.c.obj
-D:\GW\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_969ff.dir\feature_tests.c.obj   -c D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_969ff.exe
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_969ff.dir\link.txt --verbose=1
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_969ff.dir/objects.a
-D:\GW\bin\ar.exe cr CMakeFiles\cmTC_969ff.dir/objects.a @CMakeFiles\cmTC_969ff.dir\objects1.rsp
-D:\GW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_969ff.dir/objects.a -Wl,--no-whole-archive  -o cmTC_969ff.exe -Wl,--out-implib,libcmTC_969ff.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_969ff.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d70de/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d70de.dir/build.make CMakeFiles/cmTC_d70de.dir/build
+Building C object CMakeFiles/cmTC_d70de.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c11 -o CMakeFiles/cmTC_d70de.dir/feature_tests.c.o   -c /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d70de
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d70de.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d70de.dir/feature_tests.c.o  -o cmTC_d70de 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,19 +127,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywo
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/GW/bin/mingw32-make.exe" "cmTC_488a3/fast"
-D:/GW/bin/mingw32-make.exe -f CMakeFiles\cmTC_488a3.dir\build.make CMakeFiles/cmTC_488a3.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_488a3.dir/feature_tests.c.obj
-D:\GW\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_488a3.dir\feature_tests.c.obj   -c D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_488a3.exe
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_488a3.dir\link.txt --verbose=1
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_488a3.dir/objects.a
-D:\GW\bin\ar.exe cr CMakeFiles\cmTC_488a3.dir/objects.a @CMakeFiles\cmTC_488a3.dir\objects1.rsp
-D:\GW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_488a3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_488a3.exe -Wl,--out-implib,libcmTC_488a3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_488a3.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2a937/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2a937.dir/build.make CMakeFiles/cmTC_2a937.dir/build
+Building C object CMakeFiles/cmTC_2a937.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c99 -o CMakeFiles/cmTC_2a937.dir/feature_tests.c.o   -c /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2a937
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a937.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2a937.dir/feature_tests.c.o  -o cmTC_2a937 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -215,19 +145,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywo
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/GW/bin/mingw32-make.exe" "cmTC_93913/fast"
-D:/GW/bin/mingw32-make.exe -f CMakeFiles\cmTC_93913.dir\build.make CMakeFiles/cmTC_93913.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_93913.dir/feature_tests.c.obj
-D:\GW\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_93913.dir\feature_tests.c.obj   -c D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_93913.exe
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_93913.dir\link.txt --verbose=1
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_93913.dir/objects.a
-D:\GW\bin\ar.exe cr CMakeFiles\cmTC_93913.dir/objects.a @CMakeFiles\cmTC_93913.dir\objects1.rsp
-D:\GW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_93913.dir/objects.a -Wl,--no-whole-archive  -o cmTC_93913.exe -Wl,--out-implib,libcmTC_93913.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_93913.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0477e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0477e.dir/build.make CMakeFiles/cmTC_0477e.dir/build
+Building C object CMakeFiles/cmTC_0477e.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c90 -o CMakeFiles/cmTC_0477e.dir/feature_tests.c.o   -c /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0477e
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0477e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0477e.dir/feature_tests.c.o  -o cmTC_0477e 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -235,244 +161,99 @@ mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywo
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/GW/bin/mingw32-make.exe" "cmTC_54bb2/fast"
-D:/GW/bin/mingw32-make.exe -f CMakeFiles\cmTC_54bb2.dir\build.make CMakeFiles/cmTC_54bb2.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_54bb2.dir/testCXXCompiler.cxx.obj
-D:\GW\bin\g++.exe     -o CMakeFiles\cmTC_54bb2.dir\testCXXCompiler.cxx.obj -c D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-Linking CXX executable cmTC_54bb2.exe
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_54bb2.dir\link.txt --verbose=1
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_54bb2.dir/objects.a
-D:\GW\bin\ar.exe cr CMakeFiles\cmTC_54bb2.dir/objects.a @CMakeFiles\cmTC_54bb2.dir\objects1.rsp
-D:\GW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_54bb2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_54bb2.exe -Wl,--out-implib,libcmTC_54bb2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_54bb2.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ad279/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ad279.dir/build.make CMakeFiles/cmTC_ad279.dir/build
+Building CXX object CMakeFiles/cmTC_ad279.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_ad279.dir/testCXXCompiler.cxx.o -c /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ad279
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad279.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ad279.dir/testCXXCompiler.cxx.o  -o cmTC_ad279 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/GW/bin/mingw32-make.exe" "cmTC_f3349/fast"
-D:/GW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f3349.dir\build.make CMakeFiles/cmTC_f3349.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f3349.dir/CMakeCXXCompilerABI.cpp.obj
-D:\GW\bin\g++.exe     -o CMakeFiles\cmTC_f3349.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
-Linking CXX executable cmTC_f3349.exe
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f3349.dir\link.txt --verbose=1
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f3349.dir/objects.a
-D:\GW\bin\ar.exe cr CMakeFiles\cmTC_f3349.dir/objects.a @CMakeFiles\cmTC_f3349.dir\objects1.rsp
-D:\GW\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_f3349.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f3349.exe -Wl,--out-implib,libcmTC_f3349.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-Using built-in specs.
-COLLECT_GCC=D:\GW\bin\g++.exe
-COLLECT_LTO_WRAPPER=d:/gw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
-Target: mingw32
-Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
-Thread model: win32
-gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
-COMPILER_PATH=d:/gw/bin/../libexec/gcc/mingw32/6.3.0/;d:/gw/bin/../libexec/gcc/;d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
-LIBRARY_PATH=d:/gw/bin/../lib/gcc/mingw32/6.3.0/;d:/gw/bin/../lib/gcc/;d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f3349.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
- d:/gw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin d:/gw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=d:/gw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\zhang\AppData\Local\Temp\cc8MjELu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_f3349.exe d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o d:/gw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Ld:/gw/bin/../lib/gcc/mingw32/6.3.0 -Ld:/gw/bin/../lib/gcc -Ld:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Ld:/gw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_f3349.dir/objects.a --no-whole-archive --out-implib libcmTC_f3349.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt d:/gw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f3349.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
-mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5ad31/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5ad31.dir/build.make CMakeFiles/cmTC_5ad31.dir/build
+Building CXX object CMakeFiles/cmTC_5ad31.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_5ad31.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5ad31
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ad31.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5ad31.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5ad31  
+Apple LLVM version 8.1.0 (clang-802.0.42)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_5ad31 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5ad31.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-278.4
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"D:/GW/bin/mingw32-make.exe" "cmTC_f3349/fast"]
-  ignore line: [D:/GW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f3349.dir\build.make CMakeFiles/cmTC_f3349.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_f3349.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [D:\GW\bin\g++.exe     -o CMakeFiles\cmTC_f3349.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"]
-  ignore line: [Linking CXX executable cmTC_f3349.exe]
-  ignore line: ["D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f3349.dir\link.txt --verbose=1]
-  ignore line: ["D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f3349.dir/objects.a]
-  ignore line: [D:\GW\bin\ar.exe cr CMakeFiles\cmTC_f3349.dir/objects.a @CMakeFiles\cmTC_f3349.dir\objects1.rsp]
-  ignore line: [D:\GW\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_f3349.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f3349.exe -Wl,--out-implib,libcmTC_f3349.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=D:\GW\bin\g++.exe]
-  ignore line: [COLLECT_LTO_WRAPPER=d:/gw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
-  ignore line: [Target: mingw32]
-  ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
-  ignore line: [Thread model: win32]
-  ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
-  ignore line: [COMPILER_PATH=d:/gw/bin/../libexec/gcc/mingw32/6.3.0/]
-  ignore line: [d:/gw/bin/../libexec/gcc/]
-  ignore line: [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
-  ignore line: [LIBRARY_PATH=d:/gw/bin/../lib/gcc/mingw32/6.3.0/]
-  ignore line: [d:/gw/bin/../lib/gcc/]
-  ignore line: [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
-  ignore line: [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f3349.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
-  link line: [ d:/gw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin d:/gw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=d:/gw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\zhang\AppData\Local\Temp\cc8MjELu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_f3349.exe d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o d:/gw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Ld:/gw/bin/../lib/gcc/mingw32/6.3.0 -Ld:/gw/bin/../lib/gcc -Ld:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Ld:/gw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_f3349.dir/objects.a --no-whole-archive --out-implib libcmTC_f3349.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt d:/gw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
-    arg [d:/gw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [d:/gw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
-    arg [-plugin-opt=d:/gw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\zhang\AppData\Local\Temp\cc8MjELu.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
-    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-    arg [-Bdynamic] ==> ignore
-    arg [-u] ==> ignore
-    arg [___register_frame_info] ==> ignore
-    arg [-u] ==> ignore
-    arg [___deregister_frame_info] ==> ignore
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5ad31/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5ad31.dir/build.make CMakeFiles/cmTC_5ad31.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_5ad31.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_5ad31.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_5ad31]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ad31.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5ad31.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5ad31  ]
+  ignore line: [Apple LLVM version 8.1.0 (clang-802.0.42)]
+  ignore line: [Target: x86_64-apple-darwin16.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_5ad31 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5ad31.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> lib [to_library]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.12.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f3349.exe] ==> ignore
-    arg [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> ignore
-    arg [d:/gw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> ignore
-    arg [-Ld:/gw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [d:/gw/bin/../lib/gcc/mingw32/6.3.0]
-    arg [-Ld:/gw/bin/../lib/gcc] ==> dir [d:/gw/bin/../lib/gcc]
-    arg [-Ld:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
-    arg [-Ld:/gw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../..]
-    arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_f3349.dir/objects.a] ==> ignore
-    arg [--no-whole-archive] ==> ignore
-    arg [--out-implib] ==> ignore
-    arg [libcmTC_f3349.dll.a] ==> ignore
-    arg [--major-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [--minor-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [-lstdc++] ==> lib [stdc++]
-    arg [-lmingw32] ==> lib [mingw32]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lmoldname] ==> lib [moldname]
-    arg [-lmingwex] ==> lib [mingwex]
-    arg [-lmsvcrt] ==> lib [msvcrt]
-    arg [-ladvapi32] ==> lib [advapi32]
-    arg [-lshell32] ==> lib [shell32]
-    arg [-luser32] ==> lib [user32]
-    arg [-lkernel32] ==> lib [kernel32]
-    arg [-lmingw32] ==> lib [mingw32]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lmoldname] ==> lib [moldname]
-    arg [-lmingwex] ==> lib [mingwex]
-    arg [-lmsvcrt] ==> lib [msvcrt]
-    arg [d:/gw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> ignore
-  remove lib [gcc_s]
-  remove lib [gcc]
-  remove lib [gcc_s]
-  remove lib [gcc]
-  collapse library dir [d:/gw/bin/../lib/gcc/mingw32/6.3.0] ==> [D:/GW/lib/gcc/mingw32/6.3.0]
-  collapse library dir [d:/gw/bin/../lib/gcc] ==> [D:/GW/lib/gcc]
-  collapse library dir [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> [D:/GW/mingw32/lib]
-  collapse library dir [d:/gw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> [D:/GW/lib]
-  implicit libs: [stdc++;mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
-  implicit dirs: [D:/GW/lib/gcc/mingw32/6.3.0;D:/GW/lib/gcc;D:/GW/mingw32/lib;D:/GW/lib]
-  implicit fwks: []
+    arg [cmTC_5ad31] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_5ad31.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+  implicit libs: [to_library;c++]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
 
 
-
-
-Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command:"D:/GW/bin/mingw32-make.exe" "cmTC_57745/fast"
-D:/GW/bin/mingw32-make.exe -f CMakeFiles\cmTC_57745.dir\build.make CMakeFiles/cmTC_57745.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_57745.dir/feature_tests.cxx.obj
-D:\GW\bin\g++.exe    -std=c++1z -o CMakeFiles\cmTC_57745.dir\feature_tests.cxx.obj -c D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_57745.exe
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_57745.dir\link.txt --verbose=1
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_57745.dir/objects.a
-D:\GW\bin\ar.exe cr CMakeFiles\cmTC_57745.dir/objects.a @CMakeFiles\cmTC_57745.dir\objects1.rsp
-D:\GW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_57745.dir/objects.a -Wl,--no-whole-archive  -o cmTC_57745.exe -Wl,--out-implib,libcmTC_57745.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_57745.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/GW/bin/mingw32-make.exe" "cmTC_5273d/fast"
-D:/GW/bin/mingw32-make.exe -f CMakeFiles\cmTC_5273d.dir\build.make CMakeFiles/cmTC_5273d.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5273d.dir/feature_tests.cxx.obj
-D:\GW\bin\g++.exe    -std=c++14 -o CMakeFiles\cmTC_5273d.dir\feature_tests.cxx.obj -c D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_5273d.exe
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5273d.dir\link.txt --verbose=1
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_5273d.dir/objects.a
-D:\GW\bin\ar.exe cr CMakeFiles\cmTC_5273d.dir/objects.a @CMakeFiles\cmTC_5273d.dir\objects1.rsp
-D:\GW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_5273d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5273d.exe -Wl,--out-implib,libcmTC_5273d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5273d.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_13883/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_13883.dir/build.make CMakeFiles/cmTC_13883.dir/build
+Building CXX object CMakeFiles/cmTC_13883.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c++14 -o CMakeFiles/cmTC_13883.dir/feature_tests.cxx.o -c /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_13883
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13883.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_13883.dir/feature_tests.cxx.o  -o cmTC_13883 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -535,19 +316,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywo
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/GW/bin/mingw32-make.exe" "cmTC_538fc/fast"
-D:/GW/bin/mingw32-make.exe -f CMakeFiles\cmTC_538fc.dir\build.make CMakeFiles/cmTC_538fc.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_538fc.dir/feature_tests.cxx.obj
-D:\GW\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_538fc.dir\feature_tests.cxx.obj -c D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_538fc.exe
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_538fc.dir\link.txt --verbose=1
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_538fc.dir/objects.a
-D:\GW\bin\ar.exe cr CMakeFiles\cmTC_538fc.dir/objects.a @CMakeFiles\cmTC_538fc.dir\objects1.rsp
-D:\GW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_538fc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_538fc.exe -Wl,--out-implib,libcmTC_538fc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_538fc.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_84b6d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_84b6d.dir/build.make CMakeFiles/cmTC_84b6d.dir/build
+Building CXX object CMakeFiles/cmTC_84b6d.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c++11 -o CMakeFiles/cmTC_84b6d.dir/feature_tests.cxx.o -c /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_84b6d
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84b6d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_84b6d.dir/feature_tests.cxx.o  -o cmTC_84b6d 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -610,19 +387,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywo
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/GW/bin/mingw32-make.exe" "cmTC_2471e/fast"
-D:/GW/bin/mingw32-make.exe -f CMakeFiles\cmTC_2471e.dir\build.make CMakeFiles/cmTC_2471e.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2471e.dir/feature_tests.cxx.obj
-D:\GW\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_2471e.dir\feature_tests.cxx.obj -c D:\GitHub\AlgorithmLearn\Algorithms\mywork\02\02-03\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_2471e.exe
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2471e.dir\link.txt --verbose=1
-"D:\Soft\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_2471e.dir/objects.a
-D:\GW\bin\ar.exe cr CMakeFiles\cmTC_2471e.dir/objects.a @CMakeFiles\cmTC_2471e.dir\objects1.rsp
-D:\GW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_2471e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2471e.exe -Wl,--out-implib,libcmTC_2471e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_2471e.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fa26b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fa26b.dir/build.make CMakeFiles/cmTC_fa26b.dir/build
+Building CXX object CMakeFiles/cmTC_fa26b.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c++98 -o CMakeFiles/cmTC_fa26b.dir/feature_tests.cxx.o -c /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/Algorithms/mywork/02/02-03/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fa26b
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa26b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fa26b.dir/feature_tests.cxx.o  -o cmTC_fa26b 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
