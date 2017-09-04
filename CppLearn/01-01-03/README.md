@@ -42,4 +42,34 @@ x = sqrt(6.25);
 
 * 第二种方法更好，因为头文件更可能使头文件正确✅
 * 对于C++库中的每个函数，都在一个或多个头文件中提供了其原型。请通过手册或在线帮助查看函数描述来确定应使用哪个头文件。
-* 
+* 不要混淆函数原型和函数定义。可以看出，原型只描述函数接口。也就是说，它描述的是发给函数的信息和返回的信息。
+* 而定义中包含了函数的编译代码
+* 如计算平方根的代码。C和C++将库函数的这两项特性(原型和定义)分开了。
+* 库文件中包含了函数的编译代码，而头文件中则包含原型。 [.h头文件 .lib库文件 .dll动态库文件之间的关系](http://blog.csdn.net/yusiguyuan/article/details/12649737)
+* 应在首次使用函数之前提供其原型。通常的做法是吧原型放到main()函数定义的前面。
+
+#### 函数库sqrt()的用法
+
+* 它通过包含cmath文件来提供该函数的原型。
+
+```Cpp
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+  using namespace std;
+
+  double area;
+  cout << "Enter the floor area, in square feet, of your home: ";
+  cin >> area;
+  double side;
+  side = sqrt(area);
+  cout << "That's the equivalent of a square " << side
+       << "feet to the side." << endl;
+  cout << "How fascinating!" << endl;
+  return 0;
+}
+```
+
+注意：如果使用老的编译器，则头文件为` #include <math.h>`
