@@ -2,7 +2,8 @@
 ## C++函数
 
 ### 目录
-* [01-01](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-01-03#01-01)`声明语句和变量`
+* [01-01](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-01-03#01-01)`使用有返回值的函数`
+* [01-02](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-01-03#01-01)`函数变体`
 
 
 ## 01-01
@@ -73,3 +74,9 @@ int main()
 ```
 
 注意：如果使用老的编译器，则头文件为` #include <math.h>`
+
+#### 使用库函数
+
+* C++库函数储存在库文件中。编译器编译程序时，它必须在库文件搜索您使用的函数。至于自动搜索哪些文件，将因编译器而异。
+
+#### 
