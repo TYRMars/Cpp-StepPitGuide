@@ -3,7 +3,8 @@
 
 ### 目录
 * [01-01](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-01-03#01-01)`使用有返回值的函数`
-* [01-02](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-01-03#01-01)`函数变体`
+* [01-02](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-01-03#01-02)`函数变体`
+* [01-03](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-01-03#01-03)`用户自定义函数`
 
 
 ## 01-01
@@ -107,3 +108,11 @@ answer = pow(5.0,8.0);
 ```Cpp
 int rand(void);
 ```
+
+* 关键字void明确指出，该函数不接受任何参数。如果省略void，让括号为空，则C++将其解释为一个不接受任何参数的隐式声明。可以这样使用该函数：
+
+```Cpp
+myGuess = rand();
+```
+
+* C++中即使没有参数也要有括号
