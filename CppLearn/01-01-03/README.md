@@ -116,3 +116,35 @@ myGuess = rand();
 ```
 
 * C++中即使没有参数也要有括号
+
+## 01-03
+### 用户自定义函数
+
+* 标准C库提供了140多个预定义函数。如果其中的函数能满足需求，则应使用他们。但用户经常要编写自己的函数，尤其是在设计类的时候。无论如何，设计自己的函数很有意思。
+* 每个C++程序都必须有main()这个主函数。
+* 自定义函数必须提供新函数的源代码。最简单的把源码放在main()的后面。
+
+```Cpp
+#include <iostream>
+void simon(int);
+
+int main()
+{
+  using namespace std;
+  simon(3);
+  cout << "Pick an integer:";
+  int count;
+  cin >> count;
+  aimon(count);
+  cout << "Done!" << endl;
+  return 0;
+}
+
+void simon(int n)
+{
+  using namespace std;
+  cout << "Simon says touch your toes" << n << "time." << endl;
+}
+```
+
+* main()函数两次调用simon()函数，一次的参数为3，另一次的参数为变量count。在这两次调用之间。
