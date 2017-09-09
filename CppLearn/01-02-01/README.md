@@ -41,3 +41,8 @@ int __fools; //valid but reserved -- starts with two underscores 有效但保留
 int the_very_best_variable_i_can_be_version_112; //valid
 int honky-tonk; //invalid -- no hyphens allowed 没有连字符允许
 ```
+
+## 01-02
+### 整型
+
+* 整数就是没有小数的数字
