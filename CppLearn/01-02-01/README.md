@@ -90,7 +90,7 @@ int main()
 }
 ```
 
-#### 运算符sizeof和头文件limits
+#### 1.运算符sizeof和头文件limits
 * sizeof运算符指出，在8位字节的系统中，int的长度为4个字节。可对类型名或变量名使用sizeof运算符。
 * 对类型名(如int)使用sizeof运算符时，应将名称放在括号中；
 * 对变量名(如n_short)使用该运算符，括号是可选的
@@ -107,9 +107,18 @@ int main()
 | USHRT_MAX   | unsigned short 的最大值  |
 | INT_MAX   | int的最大值  |
 | INT_MIN   | int的最小值  |
-| UNIT_MAX   | long的最大值   |
-| LONG_MIN   | long的最小值   |
+| UNIT_MAX   | long的最大值  |
+| LONG_MIN   | long的最小值  |
 | ULONG_MAX   | unsigned long的最大值  |
 | LLONG_MAX   | long long 的最大值  |
 | LLONG_MIN   | long long 的最小值  |
 | ULLONG_MAX  | unsigned long long 的最大值  |
+
+#### 2.初始化
+* 初始化将赋值与声明合在一起。
+
+```Cpp
+int n_int = INT_MAX;
+```
+
+* 也可以使用字面值常量来初始化。可以将变量初始化为另一个变量
