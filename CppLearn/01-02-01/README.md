@@ -105,3 +105,11 @@ int main()
 | UCHAR_MAX   | unsigned char 的最大值 |
 | SHRT_MAX   | short的最大值  |
 | USHRT_MAX   | unsigned short 的最大值  |
+| INT_MAX   | int的最大值  |
+| INT_MIN   | int的最小值  |
+| UNIT_MAX   | long的最大值   |
+| LONG_MIN   | long的最小值   |
+| ULONG_MAX   | unsigned long的最大值  |
+| LLONG_MAX   | long long 的最大值  |
+| LLONG_MIN   | long long 的最小值  |
+| ULLONG_MAX  | unsigned long long 的最大值  |
