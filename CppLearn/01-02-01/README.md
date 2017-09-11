@@ -59,3 +59,49 @@ int honky-tonk; //invalid -- no hyphens allowed 没有连字符允许
     - int至少与short一样长；
     - long至少32位，且至少与int一样长；
     - long long至少64位，且至少与long一样长。
+
+```Cpp
+#include <iostream>
+#include <climit>
+int main()
+{
+  using namespace std;
+  int n_int = INT_MAX;
+  short n_short = SHRT_MAX;
+  long n_long = LONG_MAX;
+  long long n_long = LLONG_MAX;
+
+  //sizeof
+  cout << "int is" << sizeof(int) << "bytes." << endl;
+  cout << "short is" << sizeof n_short << "bytes." << endl;
+  cout << "long is" << sizeof n_long << "bytes." << endl;
+  cout << "long long is" << sizeof n_llong << "bytes." << endl;
+  cout << endl;
+
+  cout << "Maximum values:" << endl;
+  cout << "int:" << n_int << endl;
+  cout << "short:" << n_short << endl;
+  cout << "long:" << n_long << endl;
+  cout << "long long:" << n_llong << endl << endl;
+
+  cout << "Minimum int value = " << INT_MIN << endl;
+  cout << "Bite per byte = " << CHAR_BIT << endl;
+  return 0;
+}
+```
+
+#### 运算符sizeof和头文件limits
+* sizeof运算符指出，在8位字节的系统中，int的长度为4个字节。可对类型名或变量名使用sizeof运算符。
+* 对类型名(如int)使用sizeof运算符时，应将名称放在括号中；
+* 对变量名(如n_short)使用该运算符，括号是可选的
+
+| 符号常量        | 表示           |
+| :------------- | :------------- |
+| CHAR_BIT      | char的位数       |
+| CHAR_MAX   | char的最大值   |
+| CHAR_MIN   | char的最小值   |
+| SCHAR_MAX   | signed char 的最大值  |
+| SCHAR_MIN   | signed char 的最小值  |
+| UCHAR_MAX   | unsigned char 的最大值 |
+| SHRT_MAX   | short的最大值  |
+| USHRT_MAX   | unsigned short 的最大值  |
