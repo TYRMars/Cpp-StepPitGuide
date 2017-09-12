@@ -1,11 +1,11 @@
-//
+﻿//
 // Created by zhang on 2017/9/12.
 //
 
-#ifndef DEMO1_INITTIME_H
-#define DEMO1_INITTIME_H
+#ifndef INITTIME_H
+#define INITTIME_H
 
-#endif //DEMO1_INITTIME_H
+#endif //INITTIME_H
 
 class Time
 {
