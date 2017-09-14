@@ -10,6 +10,7 @@
 * [01-01](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-02-01#01-01)`变量名`
 * [01-02](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-02-01#01-02)`整型`
 * [01-03](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-02-01#01-03)`整型short、int、long和long long`
+* [01-04](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-02-01#01-04)`无符号类型`
 
 ## 01-01
 ### 变量名
@@ -143,4 +144,29 @@ int hamburgers = {24};
 
 ```Cpp
 int emus{7};
+int rheas = {12};
 ```
+
+* 其次，大括号内可以不包含任何东西。在这种情况下，变量将被初始化为零：
+
+```Cpp
+int rocs = {};
+int psychics{};
+```
+
+## 01-04
+### 无符号类型
+
+* 前面介绍的4种类型都有一种不能存储负数值的无符号变换体，其优点是可以增大变量能够存储的最大值。例如，如果short表示的范围为-32768到+32767，则无符号版本的表示范围为0-65535。
+* 当然，仅当数值不会为负时才应使用无符号类型，如人口、粒数。
+* 要创建无符号版本的基本整型，只需要使用关键字unsigned来修改声明即可：
+
+```Cpp
+unsigned short change;
+unsigned int rovert;
+unsigned quarterback; // unsigned int quarterback
+unsigned long gone;
+unsigned long long lang_lang;
+```
+
+* unsigned 本身时 unsigned int
