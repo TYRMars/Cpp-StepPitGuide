@@ -43,4 +43,25 @@
 
 * 和ANSI C 一样，C++也有3种浮点类型：`flout`、`double`和`long double`。
 * 这些类型是按它们可以表示的有效数位和允许的指数最小范围来描述的。有效位`(significant figure)`是数字中有意的位。
-* 事实上，C和C++对于有效位数的要求是，`float`至少`32位`，`double`至少`64位`
+* 事实上，C和C++对于有效位数的要求是，`float`至少`32位`，`double`至少`64位`，`long double`为80、96或128位。
+
+```Cpp
+#include <iostream>
+int main()
+{
+  using namespace std;
+  cout.setf(ios_base::fixed, ios_base::floatfield); // fixed-point
+  float tub = 10.0/3.0;
+  double mint = 10.0/3.0;
+  const float million = 1.0e6;
+
+  cout << "tub = " << tub;
+  cout << " a million tubs = " << million * tub;
+  cont << ", \nand ten million tubs = ";
+  cont << 10 * million * tub << endl;
+
+  cout << "mint =" << mint << "and a million mints =";
+  cout << million * mint << endl;
+  return 0;
+}
+```
