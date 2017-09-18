@@ -63,6 +63,10 @@
 * [03-01-02](https://github.com/TYRMars/AlgorithmLearn#03-01-02) `算法分析框架`
 * [03-01-03](https://github.com/TYRMars/AlgorithmLearn#03-01-03) `渐进符号和基本类型效率类型`
 * [03-01-04](https://github.com/TYRMars/AlgorithmLearn#03-01-04) `非递归算法的数学分析`
+* [03-01-05](https://github.com/TYRMars/AlgorithmLearn#03-01-05) `递归算法的数学分析`
+* [03-01-06](https://github.com/TYRMars/AlgorithmLearn#03-01-06) `计算第n个斐波那契数`
+* [03-01-07](https://github.com/TYRMars/AlgorithmLearn#03-01-07) `算法的经验分析`
+* [03-01-08](https://github.com/TYRMars/AlgorithmLearn#03-01-08) `算法可视化`
 
 ### 第二章 选择排序与插入排序
 
