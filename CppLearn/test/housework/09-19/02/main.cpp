@@ -8,14 +8,17 @@ using namespace std;
 
 void swap_char(char a[])
 {
-	int flag,temp;
+	int flag;
 	int len = strlen(a);
+	char temp;
+	
 	if(len % 2 != 0)
 	{
 		flag = len-1;
 	}else{
 		flag = len-2;
 	}
+	
 	for(int i=0;i<len/2; i = i+2)
 		{
 			temp = a[i];
