@@ -7,6 +7,8 @@
 ## 目录
 * [01-01](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-02-03#01-01)`书写浮点数`
 * [01-02](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-02-03#01-02)`浮点类型`
+* [01-03](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-02-03#01-03)`浮点常量`
+* [01-04](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-02-03#01-04)`浮点数的优缺点`
 
 ## 01-01
 ### 书写浮点数
