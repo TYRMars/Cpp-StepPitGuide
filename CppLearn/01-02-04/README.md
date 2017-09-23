@@ -48,4 +48,28 @@ int main()
 ## 01-02
 ### 除法分支
 
-* 除法运算符`(/)`的行为取决于操作数的类型。如果两个操作数都是整数，则C++将执行整数除法
+* 除法运算符`(/)`的行为取决于操作数的类型。如果两个操作数都是整数，则C++将执行整数除法。
+* `cout.setf(ios_base::fixed,ios_base::floatfield)`
+* `ios_base::fixed`是设置cout为定点输出格式
+* `ios_base::floatfield`是设置输出时按浮点格式，小数点后有6位数字
+
+```Cpp
+#include <iostream>
+int main()
+{
+  using namespace std;
+  cout.setf(ios_base::fixed,ios_base::floatfield);
+  cout << "Integer division: 9/5 =" << 9/5 << endl;
+  cout << "Floating-point division : 9.0/5.0 =";
+  cout << 9.0 / 5.0 << endl;
+  cout << "Mixed division: 9.0 / 5 =" << 9.0 / 5 << endl;
+  cout << "double constants: 1e7 / 9.0 =";
+  cout << 1.e7 / 9.0 << endl;
+  cout << "float constants: 1e7f/9.0f = ";
+  cout << 1.e7f / 9.0f << endl;
+  return 0;
+}
+```
+
+#### 运算符重载
+* 在上面程序中，除法运算符表示了3种不同的运算：int除法、float除法和double除法。C++根据上下文（这里是操作数的类型）
