@@ -79,5 +79,25 @@ int main()
 
 * 它可以与整数除法相结合，尤其适用于解决要求将一个量分成不同的整数单元的问题，例如将英寸转换为英尺和英寸，或者将美元转化为元、角、分、厘
 
+```Cpp
+#include <iostream>
+int main()
+{
+  using namespace std;
+  const int Lbs_per_stn = 14;
+  int lbs;
+
+  cont << "Enter your weight in pounds:";
+  cin >> lbs;
+  int stone = lbs / Lbs_per_stn;
+  int pounds = lbs % Lbs_per_stn;
+  cout << lbs << "pounds are" << stone
+       << "stone," << pounds << " pounds(s) . \n";
+  return 0;
+}
+```
+
 ## 3.4.4
 ### 类型转换
+
+* C++
