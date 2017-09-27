@@ -1,3 +1,0 @@
-D:/GitHub/AlgorithmLearn/CppLearn/test/housework/09-19/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/GitHub/AlgorithmLearn/CppLearn/test/housework/09-19/untitled/cmake-build-debug/CMakeFiles/untitled.dir
-D:/GitHub/AlgorithmLearn/CppLearn/test/housework/09-19/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
