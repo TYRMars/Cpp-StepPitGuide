@@ -122,3 +122,11 @@ so_long = thirty;
 | 将较大的浮点类型转换为较小的浮点类型，如将double转换为float | 精度（有效数位）降低，值可能超出目标类型的取值范围，在这种情况下，结果将是不确定的 |
 | 将浮点类型转换为整数   | 小数部分丢失，原来的值可能超出目标类型的取值范围，在这种情况下，结果将是不确定的  |
 | 将较大的整数类型转换为较小的整数，如将long转换为short   | 原来的值可能超出目标类型的取值范围，通常只复制右边的字节  |
+
+```Cpp
+#include <iostream>
+{
+  using namespace std;
+  cout.seft(ios_base::fixed,ios_base::floatfield);
+}
+```
