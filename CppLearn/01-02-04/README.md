@@ -128,5 +128,48 @@ so_long = thirty;
 {
   using namespace std;
   cout.seft(ios_base::fixed,ios_base::floatfield);
+  float tree = 3;
+  int guess(3.9832);
+  int debt = 7.2E12;
+  cout << "tree = " << tree << endl;
+  cout << "guess = " << guess << endl;
+  cout << "debt = " << debt << endl;
+  return 0;
 }
 ```
+
+### 2
+#### 以{}方式初始化时进行的转换
+
+* `C++11`将使用大括号的初始化称为列表初始化，因为这种初始化常用于给复杂的数据类型提供值列表。
+* 它对类型转换的要求更严格，列表初始化不允许缩窄，即变量的类型可能无法表示赋给它的值。
+
+```Cpp
+const int code = 66;
+int x = 66;
+char c1 {31325};
+char c2 = {66};
+char c3 {code};
+char c4 = {x};
+x = 31325;
+```
+
+### 3
+#### 表达式中的转换
+
+* 当同一个表达式中包含两种不同的算数类型时，C++将执行两种自动转换：
+  - 首先，一些类型在出现时便会自动转换；
+  - 其次，有些类型在于其他类型同时出现在表达式中时将被转换。
+
+##### 自动转换
+
+* 在计算表达式时，C++将`bool`、`char`、`unsigned char`、`signed char` 和`short`值转换为`int`。
+* 这些统称为整型提升
+
+```Cpp
+short chickens = 20;
+short duck = 35;
+short fowl = chickens + ducks;
+```
+
+* C++版本的校验表，编译器将依次查阅该列表
