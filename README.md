@@ -72,23 +72,19 @@
 
 ### 第一章 算法基本思想
 
-* [03-01-01](https://github.com/TYRMars/AlgorithmLearn#03-01-01) `基本数据结构回顾`
-* [03-01-02](https://github.com/TYRMars/AlgorithmLearn#03-01-02) `算法分析框架`
-* [03-01-03](https://github.com/TYRMars/AlgorithmLearn#03-01-03) `渐进符号和基本类型效率类型`
-* [03-01-04](https://github.com/TYRMars/AlgorithmLearn#03-01-04) `非递归算法的数学分析`
-* [03-01-05](https://github.com/TYRMars/AlgorithmLearn#03-01-05) `递归算法的数学分析`
-* [03-01-06](https://github.com/TYRMars/AlgorithmLearn#03-01-06) `计算第n个斐波那契数`
-* [03-01-07](https://github.com/TYRMars/AlgorithmLearn#03-01-07) `算法的经验分析`
-* [03-01-08](https://github.com/TYRMars/AlgorithmLearn#03-01-08) `算法可视化`
+* [03-01-01](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-01-01) `基本数据结构回顾`
+* [03-01-02](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-01-02) `算法分析框架`
+* [03-01-03](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-01-03) `渐进符号和基本类型效率类型`
+* [03-01-04](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-01-04) `非递归算法的数学分析`
+* [03-01-05](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-01-05) `递归算法的数学分析`
+* [03-01-06](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-01-06) `计算第n个斐波那契数`
+* [03-01-07](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-01-07) `算法的经验分析`
+* [03-01-08](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-01-08) `算法可视化`
 
-### 第二章 选择排序与插入排序
+### 第二章 蛮力法
 
-* [03-02-01](https://github.com/TYRMars/AlgorithmLearn#03-02-01) `选择排序算法-Selection Sort`
-* [03-02-02](https://github.com/TYRMars/AlgorithmLearn#03-02-02) `使用模版Templates（泛型）编写算法`
-* [03-02-03](https://github.com/TYRMars/AlgorithmLearn#03-02-03) `随机生成算法测试用例`
-* [03-02-04](https://github.com/TYRMars/AlgorithmLearn#03-02-04) `测试算法性能`
-* [03-02-05](https://github.com/TYRMars/AlgorithmLearn#03-02-05) `插入排序法-Insertion Sort`
-* [03-02-06](https://github.com/TYRMars/AlgorithmLearn#03-02-06) `插入排序法的改进`
-* [03-02-07](https://github.com/TYRMars/AlgorithmLearn#03-02-07) `更多关于O（n^2）排序算法的思考`
+* [03-02-00](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-02-01) `蛮力法简介`
+* [03-02-01](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-02-01) `选择排序和冒泡排序`
+* [03-02-02](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-02-02) `顺序查找和蛮力字符串匹配`
 
 ---
