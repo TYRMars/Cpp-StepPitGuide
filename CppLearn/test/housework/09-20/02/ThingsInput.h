@@ -14,7 +14,7 @@ class ThingsCreate
 public:
     char sysID [10];//设备号
     char sysName [20];//设备名 char
-    enum sysClass {a,b,c};//设备种类（分为：实验设备、办公设备、教学设备）enum
+    char sysClass;//设备种类（分为：实验设备、办公设备、教学设备）enum
     void Input(void);
 };
 
