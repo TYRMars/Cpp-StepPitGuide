@@ -5,25 +5,24 @@
 #ifndef INC_02_THINGS_H
 #define INC_02_THINGS_H
 
-#include <iostream>
-#include <fstream>
+#include <string>
+
 using namespace std;
 
 class ThingsCreate
 {
 public:
-    char sysID [10];//设备号
-    char sysName [20];//设备名 char
-    char sysClass;//设备种类（分为：实验设备、办公设备、教学设备）enum
-    void Input(void);
+    string sysID;//设备号
+    string sysName;//设备名 char
+    string sysClass;//设备种类（分为：实验设备、办公设备、教学设备）enum
+    char sysType;
+
+    void InputIn();
+    void OutputIn();
+    void OutputOut();
+    int SystemInit();
 };
 
-void ThingsCreate::Input()
-{
-    cout << "请输入设备号:";
-    cin >> sysID;
-    cout << "请输入设备名:";
-    cin >> sysName;
-}
+
 
 #endif //INC_02_THINGS_H
