@@ -16,7 +16,6 @@ public:
     string sysName;//设备名 char
     string sysClass;//设备种类（分为：实验设备、办公设备、教学设备）enum
     char sysType;
-
     void InputIn();
     void OutputIn();
     void OutputOut();
