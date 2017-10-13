@@ -24,7 +24,7 @@
 
 ### 第三章 C++复合类型
 
-* [01-03-01](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-02-04) `算数运算符`
+* [01-03-01](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-02-04) `数组`
 
 ### 第四章 C++循环和关系表达式
 
