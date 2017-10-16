@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/GitHub/AlgorithmLearn/CppLearn/test/housework/10-16/demo/main.cpp" "D:/GitHub/AlgorithmLearn/CppLearn/test/housework/10-16/demo/cmake-build-debug/CMakeFiles/demo.dir/main.cpp.obj"
+  "/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-16/demo/main.cpp" "/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-16/demo/cmake-build-debug/CMakeFiles/demo.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
