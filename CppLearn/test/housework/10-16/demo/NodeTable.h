@@ -32,6 +32,7 @@ public:
     CList();
     void InputIn();
     void OutputIn();
+    void Sort();                      //排序
     void InitFromTxt();               //创建链表
     void Update()const;
     void Display()const;              //显示链表
