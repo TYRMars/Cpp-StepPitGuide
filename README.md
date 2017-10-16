@@ -26,6 +26,7 @@
 
 * [01-03-01](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-03-01) `数组`
 * [01-03-02](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-03-02) `字符串`
+* [01-03-03](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-03-03) `String类简介`
 
 ### 第四章 C++循环和关系表达式
 

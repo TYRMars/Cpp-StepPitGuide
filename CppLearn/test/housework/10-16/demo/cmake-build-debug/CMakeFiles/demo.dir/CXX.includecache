@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/GitHub/AlgorithmLearn/CppLearn/test/housework/10-16/demo/NodeTable.h
+string
+-
+
+D:/GitHub/AlgorithmLearn/CppLearn/test/housework/10-16/demo/main.cpp
+iostream
+-
+string
+-
+fstream
+-
+iomanip
+-
+NodeTable.h
+D:/GitHub/AlgorithmLearn/CppLearn/test/housework/10-16/demo/NodeTable.h
+
