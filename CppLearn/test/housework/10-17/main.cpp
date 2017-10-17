@@ -38,11 +38,10 @@ void StackHanoi::StackDisplay(stack<int> a,stack<int> b,stack<int> c)
 
 void StackHanoi::is_empty(stack<int> s)
 {
-    int temp,t;
+    int temp;
     if(s.size() != 0)
     {
-        t = s.size();
-        for(int i =0 ;i<=t;++i)
+        while (!s.empty())
         {
             temp = s.top();s.pop();
             for (int j = 0; j < temp; j++) {
