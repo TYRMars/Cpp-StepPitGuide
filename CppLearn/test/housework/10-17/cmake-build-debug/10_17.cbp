@@ -85,6 +85,9 @@
 		<Unit filename="/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-17/main.cpp">
 			<Option target="10_17"/>
 		</Unit>
+		<Unit filename="/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-17/stack_hanoi.h">
+			<Option target="10_17"/>
+		</Unit>
 		<Unit filename="/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-17/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

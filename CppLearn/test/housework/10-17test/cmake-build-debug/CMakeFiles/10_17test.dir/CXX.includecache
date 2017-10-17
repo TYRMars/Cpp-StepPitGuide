@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-17test/main.cpp
+iostream
+-
+cstdio
+-
+
