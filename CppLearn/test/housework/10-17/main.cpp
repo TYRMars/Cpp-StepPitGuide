@@ -22,6 +22,8 @@ void StackHanoi::move(StackList& a,StackList& b) {
     temp = a.top();
     a.pop();
     b.push(temp);
+    do_num = do_num +1;
+    cout << "移动了第" << do_num << "次" << endl;
     StackHanoi::StackDisplay(S1,S2,S3);
 }
 

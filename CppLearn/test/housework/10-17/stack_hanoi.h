@@ -13,6 +13,7 @@ class StackHanoi
 {
 public:
     stack<int> S1,S2,S3;
+    int do_num = 0;
     typedef stack<int> StackList;
     void move(StackList& a,StackList& b);
     void hanoi(int n,StackList& A,StackList& B,StackList& C);
