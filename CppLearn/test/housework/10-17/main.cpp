@@ -46,6 +46,7 @@ void StackHanoi::is_empty(stack<int> s)
         while (!s.empty())
         {
             temp = s.top();s.pop();
+            cout << temp << endl;
             for (int j = 0; j < temp; j++) {
                 cout << "*";
             }
@@ -63,6 +64,7 @@ void StackHanoi::Init_Hanoi(int n)
     for (int i = n; i >0 ; i--) {
         S1.push(i);
     }
+    do_num = 0;
     StackHanoi::StackDisplay(S1,S2,S3);
     StackHanoi::hanoi(n,S1,S2,S3);
 }
