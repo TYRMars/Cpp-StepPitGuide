@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-24/main.cpp
+iostream
+-
+ctime
+-
+score.h
+/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-24/score.h
+
+/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-24/score.h
+string
+-
+vector
+-
+

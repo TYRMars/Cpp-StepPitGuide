@@ -3,5 +3,5 @@ project(10_24)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp score.h)
 add_executable(10_24 ${SOURCE_FILES})
