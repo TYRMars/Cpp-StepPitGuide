@@ -36,6 +36,9 @@ public:
     ~SysScore();
     void init_table();
     int getTime();
+    void init_input();
+    void init_output();
+
 };
 
 
