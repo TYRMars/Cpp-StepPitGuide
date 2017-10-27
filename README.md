@@ -85,8 +85,9 @@
 
 ### 第二章 蛮力法
 
-* [03-02-00](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-02-01) `蛮力法简介`
-* [03-02-01](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-02-01) `选择排序和冒泡排序`
-* [03-02-02](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-02-02) `顺序查找和蛮力字符串匹配`
+* [03-02-00](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-02-00) `蛮力法简介`
+* [03-02-01](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-02-01) `选择排序`
+* [03-02-02](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-02-02) `冒泡排序`
+* [03-02-03](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-02-03) `顺序查找和蛮力字符串匹配`
 
 ---
