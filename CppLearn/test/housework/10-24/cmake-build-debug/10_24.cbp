@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-24/base.h">
+			<Option target="10_24"/>
+		</Unit>
 		<Unit filename="/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-24/main.cpp">
 			<Option target="10_24"/>
 		</Unit>
