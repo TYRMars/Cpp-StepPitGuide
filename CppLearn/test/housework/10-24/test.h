@@ -347,9 +347,7 @@ void CourseScore :: put()
         cout <<"学号："<<scoretable[i].no<<"----姓名:"<<scoretable[i].name<<"----高等数学:"<<scoretable[i].advanced_mathematics
              <<"----大学英语:"<<scoretable[i].college_english<<"----计算机导论:"<<scoretable[i].introduction_to_computers
              <<"----总分:"<<scoretable[i].total<<"----平均成绩:"<<fixed<<setprecision(1)<<scoretable[i].average<<endl;
-
     }  cout <<endl;
-
 }
 void CourseScore :: output(char* txtname)
 {
