@@ -38,7 +38,6 @@ public:
         int createTime = getTime();
         string maker = "admin";
     }
-    ~SysScore();//析构函数
     void init_table(char* txt_name);//初始化表格数据
     void Display();//显示表格
     int SystemInit();//系统初始化

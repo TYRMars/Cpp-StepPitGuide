@@ -40,7 +40,7 @@ void SysScore ::init_table(char* txt_name)
         n->highMath_score=atoi(s[2].c_str());
         n->english_score=atoi(s[3].c_str());
         n->computer_score=atoi(s[4].c_str());
-        if(s[5] != NULL)
+        if(s[5] != "")
         {
             n-> all_score = atoi(s[5].c_str());
             n-> avg_score = atoi(s[6].c_str());
