@@ -1,20 +1,18 @@
 #include <iostream>
 #include "score.h"
-#include "base.h"
 
 using namespace std;
 
 int main()
 {
 
-    int i = 1;
-
-    while (i > 0){
-        SysScore init;
+    int i = 0;
+    SysScore init;
+    string text_name = "student.txt";
+    init.init_table(text_name);//载入表格
+    while (i == 0){
         int n = init.SystemInit();//初始化菜单
-        init.init_table("Student.txt");//载入表格
         init.quick(1);
-        cin >> n;
         switch (n)
         {
             case 1:
@@ -37,14 +35,28 @@ int main()
                 if(ql == 1 || ql == 2)
                 {
                     init.quick(ql);
+                    init.Display();
                 }
                 break;
             case 5:
-                init.init_output("score.txt");
+                cout << "1.以学号为排序方式；2.以总成绩为排序方式"<<endl;
+                int ls;
+                cin >> ls;
+                if(ls == 1 || ls == 2)
+                {
+                    init.quick(ls);
+                }else
+                {
+                    break;
+                }
+                init.init_output();
                 cout << "导出完毕"<<endl;
+                break;
             default:
                 cout << "输入错误";
                 break;
         }
+        cout << "是否继续操作,输入0继续，输入其他数字跳出程序";
+        cin >> i;
     }
 }

@@ -6,26 +6,18 @@
 
 #IncludeRegexTransform: 
 
-/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-24/base.h
-fstream
--
-score.h
-/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-24/score.h
-
 /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-24/main.cpp
 iostream
 -
 score.h
 /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-24/score.h
-base.h
-/Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-24/base.h
 
 /Users/zhangjianan/Documents/GitHub/AlgorithmLearn/CppLearn/test/housework/10-24/score.h
 string
 -
 iostream
 -
-ostream
+fstream
 -
 vector
 -
