@@ -266,6 +266,7 @@ int SysScore :: SystemInit()
 void SysScore ::init_table(string txt_name)
 {
     cout << "初始化表格" <<endl;
+    cout << txt_name <<endl;
     ifstream in(txt_name);
     Students *n = new Students();
     for(string str;getline(in,str);)

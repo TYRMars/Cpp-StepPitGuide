@@ -48,6 +48,7 @@ int main()
             case 6://导入表格
                 cout << "请输入想要导入的表格";
                 cin >> text_name;
+                cout << text_name;
                 init.init_table(text_name);
                 break;
             case 7://导出表格
