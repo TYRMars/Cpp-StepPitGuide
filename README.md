@@ -90,4 +90,8 @@
 * [03-02-02](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-02-02) `冒泡排序`
 * [03-02-03](https://github.com/TYRMars/AlgorithmLearn/tree/master/Algorithms/03-02-03) `顺序查找和蛮力字符串匹配`
 
+### 第三章 分治法
+
+* 
+
 ---
