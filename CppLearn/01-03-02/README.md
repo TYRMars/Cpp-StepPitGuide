@@ -19,6 +19,7 @@ char dog[8] = {'f','a','t','e','\0'}; // a string!
 ## 目录
 * [01-01](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-03-02#01-01)`拼接字符串常识`
 * [01-02](https://github.com/TYRMars/AlgorithmLearn/tree/master/CppLearn/01-03-02#01-02)`在数组中使用字符串`
+*
 
 ## 01-01
 ### 拼接字符串常识
@@ -50,6 +51,6 @@ int main()
   cout << "Howdy! I'm" << name2;
   cout << "! What's your name ?\n";
   cin >> name1;
-  cout 
+  cout
 }
 ```
