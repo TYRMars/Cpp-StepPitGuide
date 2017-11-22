@@ -17,6 +17,7 @@ using namespace std;
 
 struct Students
 {
+    int stu_num;
     int stu_no;
     string stu_name;
     float highMath_score;
@@ -40,9 +41,11 @@ public:
     }
     void init_table(string txt_name);//初始化表格数据
     void Display();//显示表格
+    void Display_rankingList();//显示成绩排行榜
     int SystemInit();//系统初始化
     int getTime();//得到时间
     void quick(int type);
+    void BubbleSort();
     void init_input();//信息输入到数组
     void init_output();//输出到相应文件
     int Find(int find_no);//二分查找
@@ -125,6 +128,21 @@ void SysScore::quickSort(int type,int low, int high) {
         }
         quickSort(type,low,l - 1);
         quickSort(type,r + 1,high);
+    }
+}
+
+void SysScore::BubbleSort()
+{
+    int n = scoreList.size();
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n-1; j++)
+        {
+            if (scoreList[i].all_score > scoreList[j].all_score)
+            {
+                swap(scoreList[i],scoreList[j]);
+            }
+        }
     }
 }
 
@@ -255,6 +273,7 @@ int SysScore :: SystemInit()
     cout << "   5.学生数据修改                                     \n";
     cout << "   6.导入表格                                         \n";
     cout << "   7.导出表格                                        \n";
+    cout << "   8.成绩排行输出                                      \n";
     cout << "                                                     \n";
     cout << "   请输入选择：1|2|3|4|5|6|7  进行选择                  \n";
     cout << "└--------------------------------------------------┘\n";
@@ -306,7 +325,8 @@ void SysScore :: init_output()
     ofstream out(txt_name);
     for(int i=0;i<=len;i++)
     {
-        out <<scoreList[i].stu_no <<"|"
+        out <<scoreList[i].stu_num <<"|"
+            <<scoreList[i].stu_no <<"|"
             <<scoreList[i].stu_name <<"|"
             <<scoreList[i].highMath_score <<"|"
             <<scoreList[i].english_score <<"|"
@@ -358,6 +378,19 @@ void SysScore::Display()
              <<"|计算机导论:"<<scoreList[i].computer_score
              <<"|总分:"<<scoreList[i].all_score
              <<"|平均成绩:"<<scoreList[i].avg_score<<endl;
+    }
+    cout << "显示完毕" <<endl;
+}
+
+void SysScore::Display_rankingList() {
+    cout << "显示数据" <<endl;
+    int len=scoreList.size()-1;
+    for(int i=0;i<=len;i++)
+    {
+        scoreList[i].stu_num = i+1;
+        cout << "名次："<< scoreList[i].stu_num << "|学号："<<scoreList[i].stu_no
+             <<"|姓名:"<<scoreList[i].stu_name
+             <<"|总分:"<<scoreList[i].all_score<<endl;
     }
     cout << "显示完毕" <<endl;
 }

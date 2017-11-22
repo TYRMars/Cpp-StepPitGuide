@@ -52,19 +52,25 @@ int main()
                 init.init_table(text_name);
                 break;
             case 7://导出表格
-                cout << "1.以学号为排序方式；2.以总成绩为排序方式"<<endl;
+                cout << "1.以学号为排序方式；2.以总成绩为排序方式；3.成绩排行榜输出"<<endl;
                 int ls;
                 cin >> ls;
                 if(ls == 1 || ls == 2)
                 {
                     init.quick(ls);
-                }else
+                }else if(ls ==3)
                 {
+                    init.BubbleSort();
+                }else{
                     break;
                 }
                 init.init_output();
                 cout << "导出完毕"<<endl;
                 break;
+            case 8:
+                cout << "输出成绩排行榜" <<endl;
+                init.BubbleSort();
+                init.Display_rankingList();
             default:
                 cout << "输入错误";
                 break;
