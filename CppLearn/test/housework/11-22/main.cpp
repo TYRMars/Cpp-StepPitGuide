@@ -69,7 +69,7 @@ bool CodeFind ::isCharacter(char c)
 
 int main()
 {
-    CodeFind init;
-    init.ReadFile();
-    init.Display();
+    CodeFind *init = new CodeFind();
+    init->ReadFile();
+    init->Display();
 }
