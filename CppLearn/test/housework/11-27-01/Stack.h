@@ -10,6 +10,7 @@
 
 using namespace std;
 
+const int MaxSize = 100;
 
 class Stack
 {
@@ -17,11 +18,10 @@ private:
     vector<int> list;
     int top;
     int list_length;
-    int MaxSize;
+
 public:
     Stack()
     {
-        MaxSize = 100;
         vector<int> list (MaxSize);
         list_length = -1;
         top=-1;
@@ -60,6 +60,7 @@ void Stack::push(int elem)
     if(top==MaxSize-1)
     {
         cout<<"It is full, can not push !!!"<<endl;
+        return;
     }
     list.push_back(elem);
     top++;
@@ -87,6 +88,11 @@ void Stack::clear()
 
 int Stack::peek()
 {
+    if(isEmpty())
+    {
+        cout<<"It is empty, can not pop !!!"<<endl;
+        return 0;
+    }
     return list[top];
 }
 
