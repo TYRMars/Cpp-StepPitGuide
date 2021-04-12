@@ -1,2 +1,4 @@
-[![](/assets/C++.png)](https://tyrmars.gitbooks.io/cpp-setpitguide/content/ "cpp-setpitguide")
+# 封面
+
+![](.gitbook/assets/C++.png)
 
